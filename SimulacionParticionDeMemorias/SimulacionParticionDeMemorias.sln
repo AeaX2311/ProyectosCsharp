@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.31729.503
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SimulacionParticionDeMemorias", "SimulacionParticionDeMemorias\SimulacionParticionDeMemorias.csproj", "{FCCA60B0-8322-4065-9703-C7FC7E726772}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{FCCA60B0-8322-4065-9703-C7FC7E726772}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FCCA60B0-8322-4065-9703-C7FC7E726772}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FCCA60B0-8322-4065-9703-C7FC7E726772}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FCCA60B0-8322-4065-9703-C7FC7E726772}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {BBB904C6-23E6-416A-81B2-616CFC87C2AC}
+	EndGlobalSection
+EndGlobal
