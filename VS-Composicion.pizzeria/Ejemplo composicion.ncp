@@ -1,0 +1,96 @@
+<Project>
+  <Name>Ejemplo composicion</Name>
+  <ProjectItem type="NClass.DiagramEditor.ClassDiagram.Diagram" assembly="NClass.DiagramEditor, Version=2.4.1823.0, Culture=neutral, PublicKeyToken=null">
+    <Name>Pizzeria</Name>
+    <Language>CSharp</Language>
+    <Entities>
+      <Entity type="Class">
+        <Name>Pizzeria</Name>
+        <Access>Public</Access>
+        <Location left="361" top="245" />
+        <Size width="255" height="281" />
+        <Collapsed>False</Collapsed>
+        <Member type="Field">string _strNombre</Member>
+        <Member type="Field">string _strTelefono</Member>
+        <Member type="Field">List&lt;Orden&gt; _listaOrdenes</Member>
+        <Member type="Constructor">public Pizzeria(string strNombre, string strTelefono)</Member>
+        <Member type="Property">public string Nombre { get; set; }</Member>
+        <Member type="Property">public string Telefono { get; set; }</Member>
+        <Member type="Method">public void NuevaOrden(Orden nuevaOrden)</Member>
+        <Member type="Method">public int ContarOrdenes()</Member>
+        <Member type="Method">public IEnumerator&lt;Orden&gt; GetEnumerator()</Member>
+        <Member type="Method">public void EliminarOrden(Orden otraOrden)</Member>
+        <Member type="Method">public void PagarOrden(Orden otraOrden)</Member>
+        <Member type="Destructor">~Pizzeria()</Member>
+        <Modifier>None</Modifier>
+      </Entity>
+      <Entity type="Class">
+        <Name>Pizza</Name>
+        <Access>Public</Access>
+        <Location left="946" top="302" />
+        <Size width="162" height="145" />
+        <Collapsed>False</Collapsed>
+        <Member type="Field">char _chrTamanio</Member>
+        <Member type="Field">string _strIngredientes</Member>
+        <Member type="Property">public char Tamanio { get; set; }</Member>
+        <Member type="Property">public string Ingredientes { get; set; }</Member>
+        <Modifier>None</Modifier>
+      </Entity>
+      <Entity type="Class">
+        <Name>Orden</Name>
+        <Access>Public</Access>
+        <Location left="669" top="245" />
+        <Size width="214" height="264" />
+        <Collapsed>False</Collapsed>
+        <Member type="Field">int _intNumeroOrden</Member>
+        <Member type="Field">Pizza _tipoPizza</Member>
+        <Member type="Field">bool _blnPagada</Member>
+        <Member type="Field">DateTime _dtmFechaEntrega</Member>
+        <Member type="Constructor">public Orden(int intNumeroOrden)</Member>
+        <Member type="Property">public int NumeroOrden { get; }</Member>
+        <Member type="Property">public Pizza TipoPizza { get; set; }</Member>
+        <Member type="Property">public DateTime FechaEntrega { get; set; }</Member>
+        <Member type="Property">public bool Pagada { get; set; }</Member>
+        <Member type="Method">public bool Equals(Orden otraOrden)</Member>
+        <Member type="Destructor">~Orden()</Member>
+        <Modifier>None</Modifier>
+      </Entity>
+      <Entity type="Interface">
+        <Name>IEquatable&lt;Orden&gt;</Name>
+        <Access>Public</Access>
+        <Location left="696" top="110" />
+        <Size width="162" height="78" />
+        <Collapsed>False</Collapsed>
+        <Member type="Method">bool Equals()</Member>
+      </Entity>
+    </Entities>
+    <Relationships>
+      <Relationship type="Association" first="0" second="2">
+        <Label>
+        </Label>
+        <StartOrientation>Horizontal</StartOrientation>
+        <EndOrientation>Horizontal</EndOrientation>
+        <Direction>Unidirectional</Direction>
+        <AssociationType>Composition</AssociationType>
+      </Relationship>
+      <Relationship type="Association" first="2" second="1">
+        <Label>
+        </Label>
+        <StartOrientation>Horizontal</StartOrientation>
+        <EndOrientation>Horizontal</EndOrientation>
+        <BendPoint relativeToStartShape="True">
+          <X>908</X>
+          <Y>374</Y>
+        </BendPoint>
+        <Direction>Unidirectional</Direction>
+        <AssociationType>Composition</AssociationType>
+      </Relationship>
+      <Relationship type="Dependency" first="2" second="3">
+        <Label>
+        </Label>
+        <StartOrientation>Vertical</StartOrientation>
+        <EndOrientation>Vertical</EndOrientation>
+      </Relationship>
+    </Relationships>
+  </ProjectItem>
+</Project>

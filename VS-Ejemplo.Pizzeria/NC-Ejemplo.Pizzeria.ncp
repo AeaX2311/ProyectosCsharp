@@ -1,0 +1,65 @@
+<Project>
+  <Name>Ejemplo</Name>
+  <ProjectItem type="NClass.DiagramEditor.ClassDiagram.Diagram" assembly="NClass.DiagramEditor, Version=2.4.1823.0, Culture=neutral, PublicKeyToken=null">
+    <Name>Pizzeria</Name>
+    <Language>CSharp</Language>
+    <Entities>
+      <Entity type="Class">
+        <Name>Pizza</Name>
+        <Access>Public</Access>
+        <Location left="677" top="306" />
+        <Size width="217" height="145" />
+        <Collapsed>False</Collapsed>
+        <Member type="Field">int _intCantidadIngredientes</Member>
+        <Member type="Field">string _strTamanio</Member>
+        <Member type="Property">public int CantidadIngredientes { get; set; }</Member>
+        <Member type="Property">public string Tamanio { get; set; }</Member>
+        <Modifier>None</Modifier>
+      </Entity>
+    </Entities>
+    <Relationships />
+  </ProjectItem>
+  <ProjectItem type="NClass.DiagramEditor.ClassDiagram.Diagram" assembly="NClass.DiagramEditor, Version=2.4.1823.0, Culture=neutral, PublicKeyToken=null">
+    <Name>Teorico2</Name>
+    <Language>CSharp</Language>
+    <Entities>
+      <Entity type="Class">
+        <Name>Medicamento</Name>
+        <Access>Public</Access>
+        <Location left="1198" top="308" />
+        <Size width="263" height="179" />
+        <Collapsed>False</Collapsed>
+        <Member type="Field">string _strNombre</Member>
+        <Member type="Field">string _strPatente</Member>
+        <Member type="Field">double _dblCosto</Member>
+        <Member type="Property">public string Nombre { get; set; }</Member>
+        <Member type="Property">public string Patente { get; set; }</Member>
+        <Member type="Property">public double Costo { get; set; }</Member>
+        <Modifier>None</Modifier>
+      </Entity>
+      <Entity type="Class">
+        <Name>Farmacia</Name>
+        <Access>Public</Access>
+        <Location left="761" top="308" />
+        <Size width="366" height="162" />
+        <Collapsed>False</Collapsed>
+        <Member type="Field">List&lt;Medicamento&gt; listaMedicamentos = new List&lt;Medicamento&gt;()</Member>
+        <Member type="Method">public void AgregarMedicamento(Medicamento nuevoMedicamento)</Member>
+        <Member type="Method">public Medicamento MedicamentoMasCaro()</Member>
+        <Member type="Method">public IEnumerator&lt;Medicamento&gt; GetEnumerator()</Member>
+        <Member type="Destructor">~Farmacia()</Member>
+        <Modifier>None</Modifier>
+      </Entity>
+    </Entities>
+    <Relationships>
+      <Relationship type="Association" first="1" second="0">
+        <StartOrientation>Horizontal</StartOrientation>
+        <EndOrientation>Horizontal</EndOrientation>
+        <Direction>Unidirectional</Direction>
+        <AssociationType>Composition</AssociationType>
+        <StartMultiplicity>1</StartMultiplicity>
+        <EndMultiplicity>*</EndMultiplicity>
+      </Relationship>
+    </Relationships>
+  </ProjectItem>
+</Project>
