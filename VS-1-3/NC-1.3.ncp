@@ -1,0 +1,1498 @@
+<Project>
+  <Name>Practicas</Name>
+  <ProjectItem type="NClass.DiagramEditor.ClassDiagram.Diagram" assembly="NClass.DiagramEditor, Version=2.4.1823.0, Culture=neutral, PublicKeyToken=null">
+    <Name>1.3</Name>
+    <Language>CSharp</Language>
+    <Entities>
+      <Entity type="Class">
+        <Name>Rectangulo</Name>
+        <Access>Public</Access>
+        <Location left="551" top="282" />
+        <Size width="203" height="216" />
+        <Collapsed>False</Collapsed>
+        <Member type="Field">double largo</Member>
+        <Member type="Field">double ancho</Member>
+        <Member type="Method">public double CalcularArea()</Member>
+        <Member type="Method">public void ModificarLargo(double largo)</Member>
+        <Member type="Method">public double ModificarAncho()</Member>
+        <Member type="Method">public double ConsultarAncho()</Member>
+        <Member type="Method">public double ConsultarLargo()</Member>
+        <Modifier>None</Modifier>
+      </Entity>
+    </Entities>
+    <Relationships />
+  </ProjectItem>
+  <ProjectItem type="NClass.DiagramEditor.ClassDiagram.Diagram" assembly="NClass.DiagramEditor, Version=2.4.1823.0, Culture=neutral, PublicKeyToken=null">
+    <Name>1.7</Name>
+    <Language>CSharp</Language>
+    <Entities>
+      <Entity type="Class">
+        <Name>Temperatura</Name>
+        <Access>Public</Access>
+        <Location left="669" top="267" />
+        <Size width="231" height="145" />
+        <Collapsed>False</Collapsed>
+        <Member type="Field">double _dblGradosCentigrados</Member>
+        <Member type="Property">public double GradosCentigrados { get; }</Member>
+        <Member type="Method">public double ConvertirAFarenheit()</Member>
+        <Member type="Constructor">public Temperatura(double GradosCentigrados)</Member>
+        <Modifier>None</Modifier>
+      </Entity>
+    </Entities>
+    <Relationships />
+  </ProjectItem>
+  <ProjectItem type="NClass.DiagramEditor.ClassDiagram.Diagram" assembly="NClass.DiagramEditor, Version=2.4.1823.0, Culture=neutral, PublicKeyToken=null">
+    <Name>1.14</Name>
+    <Language>CSharp</Language>
+    <Entities>
+      <Entity type="Class">
+        <Name>Numero</Name>
+        <Access>Public</Access>
+        <Location left="626" top="243" />
+        <Size width="163" height="128" />
+        <Collapsed>False</Collapsed>
+        <Member type="Field">int _intValor</Member>
+        <Member type="Property">public int Valor { set; }</Member>
+        <Member type="Method">public bool EsPrimo()</Member>
+        <Modifier>None</Modifier>
+      </Entity>
+    </Entities>
+    <Relationships />
+  </ProjectItem>
+  <ProjectItem type="NClass.DiagramEditor.ClassDiagram.Diagram" assembly="NClass.DiagramEditor, Version=2.4.1823.0, Culture=neutral, PublicKeyToken=null">
+    <Name>Examen</Name>
+    <Language>CSharp</Language>
+    <Entities>
+      <Entity type="Class">
+        <Name>EcuacionCuadratica</Name>
+        <Access>Public</Access>
+        <Location left="616" top="263" />
+        <Size width="194" height="213" />
+        <Collapsed>False</Collapsed>
+        <Member type="Field">double _dblCoeficienteA</Member>
+        <Member type="Field">double _dblCoeficienteB</Member>
+        <Member type="Field">double _dblCoeficienteC</Member>
+        <Member type="Property">public double CoeficienteA { get; set; }</Member>
+        <Member type="Property">public double CoeficienteB { get; set; }</Member>
+        <Member type="Property">public double CoeficienteC { get; set; }</Member>
+        <Member type="Method">public double ObtenerRaizX1()</Member>
+        <Member type="Method">public double ObtenerRaizX2()</Member>
+        <Modifier>None</Modifier>
+      </Entity>
+    </Entities>
+    <Relationships />
+  </ProjectItem>
+  <ProjectItem type="NClass.DiagramEditor.ClassDiagram.Diagram" assembly="NClass.DiagramEditor, Version=2.4.1823.0, Culture=neutral, PublicKeyToken=null">
+    <Name>3.1.1</Name>
+    <Language>CSharp</Language>
+    <Entities>
+      <Entity type="Class">
+        <Name>Publicacion</Name>
+        <Access>Public</Access>
+        <Location left="498" top="163" />
+        <Size width="163" height="145" />
+        <Collapsed>False</Collapsed>
+        <Member type="Field">string _strTitulo</Member>
+        <Member type="Field">double _dblPrecio</Member>
+        <Member type="Property">public string Titulo { get; set; }</Member>
+        <Member type="Property">public double Precio { get; set; }</Member>
+        <Modifier>None</Modifier>
+      </Entity>
+      <Entity type="Class">
+        <Name>Cd</Name>
+        <Access>Public</Access>
+        <Location left="356" top="363" />
+        <Size width="200" height="111" />
+        <Collapsed>False</Collapsed>
+        <Member type="Field">int _intTiempoEnMinutos</Member>
+        <Member type="Property">public int TiempoEnMinutos { get; set; }</Member>
+        <Modifier>None</Modifier>
+      </Entity>
+      <Entity type="Class">
+        <Name>Libro</Name>
+        <Access>Public</Access>
+        <Location left="602" top="363" />
+        <Size width="189" height="111" />
+        <Collapsed>False</Collapsed>
+        <Member type="Field">int _intNumeroPaginas</Member>
+        <Member type="Property">public int NumeroPaginas { get; set; }</Member>
+        <Modifier>None</Modifier>
+      </Entity>
+    </Entities>
+    <Relationships>
+      <Relationship type="Association" first="1" second="0">
+        <Label>
+        </Label>
+        <StartOrientation>Vertical</StartOrientation>
+        <EndOrientation>Vertical</EndOrientation>
+        <Direction>Unidirectional</Direction>
+        <AssociationType>Association</AssociationType>
+      </Relationship>
+      <Relationship type="Association" first="2" second="0">
+        <Label>
+        </Label>
+        <StartOrientation>Vertical</StartOrientation>
+        <EndOrientation>Vertical</EndOrientation>
+        <Direction>Unidirectional</Direction>
+        <AssociationType>Association</AssociationType>
+      </Relationship>
+    </Relationships>
+  </ProjectItem>
+  <ProjectItem type="NClass.DiagramEditor.ClassDiagram.Diagram" assembly="NClass.DiagramEditor, Version=2.4.1823.0, Culture=neutral, PublicKeyToken=null">
+    <Name>5.3-Ejemplos</Name>
+    <Language>CSharp</Language>
+    <Entities>
+      <Entity type="Class">
+        <Name>Persona</Name>
+        <Access>Public</Access>
+        <Location left="636" top="160" />
+        <Size width="231" height="162" />
+        <Collapsed>False</Collapsed>
+        <Member type="Field">string _strNombre</Member>
+        <Member type="Field">DateTime _dtmFechaNacimiento</Member>
+        <Member type="Property">public string Nombre { get; set; }</Member>
+        <Member type="Property">public DateTime FechaNacimiento { get; set; }</Member>
+        <Member type="Method">public int CalcularEdad()</Member>
+        <Modifier>None</Modifier>
+      </Entity>
+      <Entity type="Class">
+        <Name>Cliente</Name>
+        <Access>Public</Access>
+        <Location left="669" top="384" />
+        <Size width="162" height="94" />
+        <Collapsed>False</Collapsed>
+        <Member type="Method">public bool EsMayorEdad()</Member>
+        <Modifier>None</Modifier>
+      </Entity>
+    </Entities>
+    <Relationships>
+      <Relationship type="Association" first="1" second="0">
+        <StartOrientation>Vertical</StartOrientation>
+        <EndOrientation>Vertical</EndOrientation>
+        <BendPoint relativeToStartShape="False">
+          <X>750</X>
+          <Y>377</Y>
+        </BendPoint>
+        <Direction>Unidirectional</Direction>
+        <AssociationType>Association</AssociationType>
+      </Relationship>
+    </Relationships>
+  </ProjectItem>
+  <ProjectItem type="NClass.DiagramEditor.ClassDiagram.Diagram" assembly="NClass.DiagramEditor, Version=2.4.1823.0, Culture=neutral, PublicKeyToken=null">
+    <Name>3.1.7</Name>
+    <Language>CSharp</Language>
+    <Entities>
+      <Entity type="Class">
+        <Name>Jugador</Name>
+        <Access>Public</Access>
+        <Location left="546" top="112" />
+        <Size width="283" height="162" />
+        <Collapsed>False</Collapsed>
+        <Member type="Field">int _intNumeroUniforme</Member>
+        <Member type="Field">string _strNombre</Member>
+        <Member type="Property">public int NumeroUniforme { get; set; }</Member>
+        <Member type="Property">public string Nombre { get; set; }</Member>
+        <Member type="Constructor">public Jugador(int intNumeroUniforme, string strNombre)</Member>
+        <Modifier>None</Modifier>
+      </Entity>
+      <Entity type="Interface">
+        <Name>IHacerHit</Name>
+        <Access>Public</Access>
+        <Location left="920" top="188" />
+        <Size width="175" height="78" />
+        <Collapsed>False</Collapsed>
+        <Member type="Property">int CantidadHits { get; set; }</Member>
+      </Entity>
+      <Entity type="Interface">
+        <Name>ICometerError</Name>
+        <Access>Public</Access>
+        <Location left="1136" top="188" />
+        <Size width="191" height="78" />
+        <Collapsed>False</Collapsed>
+        <Member type="Property">int CantidadErrores { get; set; }</Member>
+      </Entity>
+      <Entity type="Class">
+        <Name>Bateador</Name>
+        <Access>Public</Access>
+        <Location left="746" top="400" />
+        <Size width="162" height="111" />
+        <Collapsed>False</Collapsed>
+        <Member type="Constructor">public Bateador(int intNumeroUniforme, string strNombre, int intCantidadHits)</Member>
+        <Member type="Method">public string ToString()</Member>
+        <Modifier>None</Modifier>
+      </Entity>
+      <Entity type="Class">
+        <Name>Defensa</Name>
+        <Access>Public</Access>
+        <Location left="962" top="400" />
+        <Size width="499" height="111" />
+        <Collapsed>False</Collapsed>
+        <Member type="Constructor">public Defensa(int intNumeroUniforme, string strNombre, int intCantidadHits, int intCantidadErrores)</Member>
+        <Member type="Method">public string ToString()</Member>
+        <Modifier>None</Modifier>
+      </Entity>
+      <Entity type="Comment">
+        <Text>base(intNumeroUniforme, strNombre)</Text>
+        <Location left="688" top="536" />
+        <Size width="160" height="50" />
+      </Entity>
+      <Entity type="Comment">
+        <Text>base(intNumeroUniforme, strNombre)</Text>
+        <Location left="860" top="536" />
+        <Size width="160" height="50" />
+      </Entity>
+      <Entity type="Comment">
+        <Text>base(intNumeroUniforme, strNombre)</Text>
+        <Location left="312" top="588" />
+        <Size width="160" height="50" />
+      </Entity>
+      <Entity type="Class">
+        <Name>Pitcher</Name>
+        <Access>Public</Access>
+        <Location left="148" top="400" />
+        <Size width="509" height="145" />
+        <Collapsed>False</Collapsed>
+        <Member type="Field">int _intCantidadPonches</Member>
+        <Member type="Property">public int CantidadPonches { get; set; }</Member>
+        <Member type="Constructor">public Pitcher(int intNumeroJugador, string strNombre, int intCantidadPonches, int intCantidadErrores)</Member>
+        <Member type="Method">public string ToString()</Member>
+        <Modifier>None</Modifier>
+      </Entity>
+    </Entities>
+    <Relationships>
+      <Relationship type="Dependency" first="3" second="1">
+        <Label>
+        </Label>
+        <StartOrientation>Vertical</StartOrientation>
+        <EndOrientation>Vertical</EndOrientation>
+        <BendPoint relativeToStartShape="True">
+          <X>845</X>
+          <Y>375</Y>
+        </BendPoint>
+        <BendPoint relativeToStartShape="False">
+          <X>1004</X>
+          <Y>318</Y>
+        </BendPoint>
+      </Relationship>
+      <Relationship type="Association" first="3" second="0">
+        <Label>
+        </Label>
+        <StartOrientation>Vertical</StartOrientation>
+        <EndOrientation>Vertical</EndOrientation>
+        <BendPoint relativeToStartShape="False">
+          <X>687</X>
+          <Y>299</Y>
+        </BendPoint>
+        <Direction>Unidirectional</Direction>
+        <AssociationType>Association</AssociationType>
+      </Relationship>
+      <Relationship type="Comment" first="5" second="3">
+        <StartOrientation>Vertical</StartOrientation>
+        <EndOrientation>Horizontal</EndOrientation>
+        <BendPoint relativeToStartShape="True">
+          <X>721</X>
+          <Y>511</Y>
+        </BendPoint>
+        <BendPoint relativeToStartShape="False">
+          <X>721</X>
+          <Y>478</Y>
+        </BendPoint>
+      </Relationship>
+      <Relationship type="Comment" first="6" second="4">
+        <StartOrientation>Vertical</StartOrientation>
+        <EndOrientation>Horizontal</EndOrientation>
+        <BendPoint relativeToStartShape="False">
+          <X>937</X>
+          <Y>477</Y>
+        </BendPoint>
+      </Relationship>
+      <Relationship type="Association" first="4" second="0">
+        <Label>
+        </Label>
+        <StartOrientation>Vertical</StartOrientation>
+        <EndOrientation>Vertical</EndOrientation>
+        <Direction>Unidirectional</Direction>
+        <AssociationType>Association</AssociationType>
+      </Relationship>
+      <Relationship type="Dependency" first="4" second="1">
+        <Label>
+        </Label>
+        <StartOrientation>Vertical</StartOrientation>
+        <EndOrientation>Vertical</EndOrientation>
+      </Relationship>
+      <Relationship type="Dependency" first="4" second="2">
+        <Label>
+        </Label>
+        <StartOrientation>Vertical</StartOrientation>
+        <EndOrientation>Vertical</EndOrientation>
+      </Relationship>
+      <Relationship type="Comment" first="7" second="8">
+        <StartOrientation>Vertical</StartOrientation>
+        <EndOrientation>Horizontal</EndOrientation>
+        <BendPoint relativeToStartShape="False">
+          <X>123</X>
+          <Y>511</Y>
+        </BendPoint>
+      </Relationship>
+      <Relationship type="Association" first="8" second="0">
+        <Label>
+        </Label>
+        <StartOrientation>Vertical</StartOrientation>
+        <EndOrientation>Vertical</EndOrientation>
+        <Direction>Unidirectional</Direction>
+        <AssociationType>Association</AssociationType>
+      </Relationship>
+      <Relationship type="Dependency" first="8" second="2">
+        <Label>
+        </Label>
+        <StartOrientation>Vertical</StartOrientation>
+        <EndOrientation>Vertical</EndOrientation>
+        <BendPoint relativeToStartShape="True">
+          <X>420</X>
+          <Y>375</Y>
+        </BendPoint>
+        <BendPoint relativeToStartShape="False">
+          <X>1231</X>
+          <Y>334</Y>
+        </BendPoint>
+      </Relationship>
+    </Relationships>
+  </ProjectItem>
+  <ProjectItem type="NClass.DiagramEditor.ClassDiagram.Diagram" assembly="NClass.DiagramEditor, Version=2.4.1823.0, Culture=neutral, PublicKeyToken=null">
+    <Name>3.2.1</Name>
+    <Language>CSharp</Language>
+    <Entities>
+      <Entity type="Class">
+        <Name>Empresa</Name>
+        <Access>Public</Access>
+        <Location left="470" top="271" />
+        <Size width="351" height="264" />
+        <Collapsed>False</Collapsed>
+        <Member type="Field">string _strRfc</Member>
+        <Member type="Field">string _strRazonSocial</Member>
+        <Member type="Field">string _strNombreGerente</Member>
+        <Member type="Field">List&lt;Departamento&gt; ListaDepartamento</Member>
+        <Member type="Constructor">public Empresa()</Member>
+        <Member type="Property">public string Rfc { get; set; }</Member>
+        <Member type="Property">public string RazonSocial { get; set; }</Member>
+        <Member type="Property">public string NombreGerente { get; set; }</Member>
+        <Member type="Method">public void InsertarDepartamento(Departamento nuevoDepartamento)</Member>
+        <Member type="Method">public IEnumerator&lt;Departamento&gt; GetEnumerator()</Member>
+        <Member type="Destructor">~Empresa()</Member>
+        <Modifier>None</Modifier>
+      </Entity>
+      <Entity type="Class">
+        <Name>Departamento</Name>
+        <Access>Public</Access>
+        <Location left="872" top="271" />
+        <Size width="162" height="196" />
+        <Collapsed>False</Collapsed>
+        <Member type="Field">string _strNombre</Member>
+        <Member type="Field">string _strJefe</Member>
+        <Member type="Field">int _intNumero</Member>
+        <Member type="Constructor">public Departamento(int intNumero, string strNombre, string strJefe)</Member>
+        <Member type="Property">public int Numero { get; set; }</Member>
+        <Member type="Property">public string Nombre { get; set; }</Member>
+        <Member type="Property">public string Jefe { get; set; }</Member>
+        <Modifier>None</Modifier>
+      </Entity>
+    </Entities>
+    <Relationships>
+      <Relationship type="Association" first="0" second="1">
+        <StartOrientation>Horizontal</StartOrientation>
+        <EndOrientation>Horizontal</EndOrientation>
+        <BendPoint relativeToStartShape="True">
+          <X>865</X>
+          <Y>349</Y>
+        </BendPoint>
+        <Direction>Unidirectional</Direction>
+        <AssociationType>Composition</AssociationType>
+      </Relationship>
+    </Relationships>
+  </ProjectItem>
+  <ProjectItem type="NClass.DiagramEditor.ClassDiagram.Diagram" assembly="NClass.DiagramEditor, Version=2.4.1823.0, Culture=neutral, PublicKeyToken=null">
+    <Name>4.3</Name>
+    <Language>CSharp</Language>
+    <Entities>
+      <Entity type="Class">
+        <Name>Colonia</Name>
+        <Access>Public</Access>
+        <Location left="221" top="268" />
+        <Size width="255" height="247" />
+        <Collapsed>False</Collapsed>
+        <Member type="Field">string _strNombre</Member>
+        <Member type="Field">char _chrUbicacion</Member>
+        <Member type="Field">List&lt;Hogar&gt; _listaHogares</Member>
+        <Member type="Constructor">public Colonia(string strNombre, char chrUbicacion)</Member>
+        <Member type="Property">public string Nombre { get; set; }</Member>
+        <Member type="Property">public char Ubicacion { get; set; }</Member>
+        <Member type="Method">public void InsertarHogar(Hogar nuevoHogar)</Member>
+        <Member type="Method">public int ContarHabitaciones()</Member>
+        <Member type="Method">public int ContarHogares()</Member>
+        <Member type="Method">public IEnumerator&lt;Hogar&gt; GetEnumerator()</Member>
+        <Modifier>None</Modifier>
+      </Entity>
+      <Entity type="Class">
+        <Name>Hogar</Name>
+        <Access>Public</Access>
+        <Location left="535" top="268" />
+        <Size width="218" height="281" />
+        <Collapsed>False</Collapsed>
+        <Member type="Field">string _strPropietario</Member>
+        <Member type="Field">DateTime _dtmFechaRegistro</Member>
+        <Member type="Field">string _strNumeroExterior</Member>
+        <Member type="Field">int _intCantidadHabitaciones</Member>
+        <Member type="Field">char _chrTamanio</Member>
+        <Member type="Field">bool _blnEsDosPisos</Member>
+        <Member type="Property">public string Propietario { get; set; }</Member>
+        <Member type="Property">public DateTime FechaRegistro { get; set; }</Member>
+        <Member type="Property">public string NumeroExterior { get; set; }</Member>
+        <Member type="Property">public int CantidadHabitaciones { get; set; }</Member>
+        <Member type="Property">public char Tamanio { get; set; }</Member>
+        <Member type="Property">public bool EsDosPisos { get; set; }</Member>
+        <Modifier>None</Modifier>
+      </Entity>
+    </Entities>
+    <Relationships>
+      <Relationship type="Association" first="0" second="1">
+        <Label>
+        </Label>
+        <StartOrientation>Horizontal</StartOrientation>
+        <EndOrientation>Horizontal</EndOrientation>
+        <Direction>Unidirectional</Direction>
+        <AssociationType>Aggregation</AssociationType>
+        <StartMultiplicity>1</StartMultiplicity>
+        <EndMultiplicity>*</EndMultiplicity>
+      </Relationship>
+    </Relationships>
+  </ProjectItem>
+  <ProjectItem type="NClass.DiagramEditor.ClassDiagram.Diagram" assembly="NClass.DiagramEditor, Version=2.4.1823.0, Culture=neutral, PublicKeyToken=null">
+    <Name>3.1.5</Name>
+    <Language>CSharp</Language>
+    <Entities>
+      <Entity type="Class">
+        <Name>Vehiculo</Name>
+        <Access>Public</Access>
+        <Location left="599" top="146" />
+        <Size width="247" height="230" />
+        <Collapsed>False</Collapsed>
+        <Member type="Field">string _strNumeroSerieMotor</Member>
+        <Member type="Field">string _strMarca</Member>
+        <Member type="Field">int _intAnio</Member>
+        <Member type="Field">double _dblPrecio</Member>
+        <Member type="Property">public string NumeroSerieMotor { get; set; }</Member>
+        <Member type="Property">public string Marca { get; set; }</Member>
+        <Member type="Property">public int Anio { get; set; }</Member>
+        <Member type="Property">public double Precio { get; set; }</Member>
+        <Member type="Constructor">public Vehiculo(se tienen, que poner, los datos)</Member>
+        <Modifier>None</Modifier>
+      </Entity>
+      <Entity type="Class">
+        <Name>Camioneta</Name>
+        <Access>Public</Access>
+        <Location left="265" top="472" />
+        <Size width="231" height="213" />
+        <Collapsed>False</Collapsed>
+        <Member type="Field">double _dblCapacidadCargaKg</Member>
+        <Member type="Field">int _intCantidadEjes</Member>
+        <Member type="Field">long _lngCantidadRodadas</Member>
+        <Member type="Property">public double CapacidadCargaKg { get; set; }</Member>
+        <Member type="Property">public int CantidadEjes { get; set; }</Member>
+        <Member type="Property">public long CantidadRodadas { get; set; }</Member>
+        <Member type="Method">public override string ToString()</Member>
+        <Member type="Constructor">public Camioneta(paso le, datos los, aqui por)</Member>
+        <Modifier>None</Modifier>
+      </Entity>
+      <Entity type="Interface">
+        <Name>ITienePasajeros</Name>
+        <Access>Public</Access>
+        <Location left="879" top="269" />
+        <Size width="203" height="78" />
+        <Collapsed>False</Collapsed>
+        <Member type="Property">int CantidadPasajeros { get; set; }</Member>
+      </Entity>
+      <Entity type="Class">
+        <Name>AutoCompacto</Name>
+        <Access>Public</Access>
+        <Location left="522" top="472" />
+        <Size width="187" height="111" />
+        <Collapsed>False</Collapsed>
+        <Member type="Constructor">public AutoCompacto(que yo, que se)</Member>
+        <Member type="Method">public string ToString()</Member>
+        <Modifier>None</Modifier>
+      </Entity>
+      <Entity type="Class">
+        <Name>AutoDeLujo</Name>
+        <Access>Public</Access>
+        <Location left="768" top="472" />
+        <Size width="162" height="111" />
+        <Collapsed>False</Collapsed>
+        <Member type="Method">public string ToString()</Member>
+        <Member type="Constructor">public AutoDeLujo()</Member>
+        <Modifier>None</Modifier>
+      </Entity>
+      <Entity type="Class">
+        <Name>Vagoneta</Name>
+        <Access>Public</Access>
+        <Location left="964" top="472" />
+        <Size width="162" height="111" />
+        <Collapsed>False</Collapsed>
+        <Member type="Method">public string ToString()</Member>
+        <Member type="Constructor">public Vagoneta()</Member>
+        <Modifier>None</Modifier>
+      </Entity>
+    </Entities>
+    <Relationships>
+      <Relationship type="Generalization" first="1" second="0">
+        <StartOrientation>Vertical</StartOrientation>
+        <EndOrientation>Vertical</EndOrientation>
+      </Relationship>
+      <Relationship type="Realization" first="3" second="2">
+        <StartOrientation>Vertical</StartOrientation>
+        <EndOrientation>Vertical</EndOrientation>
+      </Relationship>
+      <Relationship type="Realization" first="4" second="2">
+        <StartOrientation>Vertical</StartOrientation>
+        <EndOrientation>Vertical</EndOrientation>
+      </Relationship>
+      <Relationship type="Realization" first="5" second="2">
+        <StartOrientation>Vertical</StartOrientation>
+        <EndOrientation>Vertical</EndOrientation>
+        <BendPoint relativeToStartShape="False">
+          <X>980</X>
+          <Y>378</Y>
+        </BendPoint>
+      </Relationship>
+      <Relationship type="Generalization" first="3" second="0">
+        <StartOrientation>Vertical</StartOrientation>
+        <EndOrientation>Vertical</EndOrientation>
+        <BendPoint relativeToStartShape="False">
+          <X>722</X>
+          <Y>401</Y>
+        </BendPoint>
+      </Relationship>
+      <Relationship type="Generalization" first="4" second="0">
+        <StartOrientation>Vertical</StartOrientation>
+        <EndOrientation>Vertical</EndOrientation>
+      </Relationship>
+      <Relationship type="Generalization" first="5" second="0">
+        <StartOrientation>Vertical</StartOrientation>
+        <EndOrientation>Vertical</EndOrientation>
+      </Relationship>
+    </Relationships>
+  </ProjectItem>
+  <ProjectItem type="NClass.DiagramEditor.ClassDiagram.Diagram" assembly="NClass.DiagramEditor, Version=2.4.1823.0, Culture=neutral, PublicKeyToken=null">
+    <Name>ExamenTeorico</Name>
+    <Language>CSharp</Language>
+    <Entities>
+      <Entity type="Class">
+        <Name>Autor</Name>
+        <Access>Public</Access>
+        <Location left="601" top="181" />
+        <Size width="254" height="230" />
+        <Collapsed>False</Collapsed>
+        <Member type="Field">string _strNombre</Member>
+        <Member type="Field">int _intEdad</Member>
+        <Member type="Field">int _intCantidadEjemplaresVendidos</Member>
+        <Member type="Field">double _dblPagoPorEjemplar</Member>
+        <Member type="Property">public string Nombre { get; set; }</Member>
+        <Member type="Property">public int Edad { get; set; }</Member>
+        <Member type="Property">public int CantidadEjemplaresVendidos { get; set; }</Member>
+        <Member type="Property">public double PagoPorEjemplar { get; set; }</Member>
+        <Member type="Method">public virtual double CalcularGanancia()</Member>
+        <Modifier>Abstract</Modifier>
+      </Entity>
+      <Entity type="Class">
+        <Name>AutorDeNovela</Name>
+        <Access>Public</Access>
+        <Location left="650" top="465" />
+        <Size width="182" height="111" />
+        <Collapsed>False</Collapsed>
+        <Member type="Field">string _strTipoNovela</Member>
+        <Member type="Property">public string TipoNovela { get; set; }</Member>
+        <Modifier>None</Modifier>
+      </Entity>
+      <Entity type="Class">
+        <Name>AutorDeCuento</Name>
+        <Access>Public</Access>
+        <Location left="461" top="465" />
+        <Size width="168" height="128" />
+        <Collapsed>False</Collapsed>
+        <Member type="Field">bool _blnEsInfantil</Member>
+        <Member type="Property">public bool EsInfantil { get; set; }</Member>
+        <Member type="Method">public override double CalcularGanancia()</Member>
+        <Modifier>None</Modifier>
+      </Entity>
+      <Entity type="Class">
+        <Name>AutorDeLibro</Name>
+        <Access>Public</Access>
+        <Location left="846" top="465" />
+        <Size width="188" height="111" />
+        <Collapsed>False</Collapsed>
+        <Member type="Field">string _strEspecialidad</Member>
+        <Member type="Property">public string Especialidad { get; set; }</Member>
+        <Modifier>None</Modifier>
+      </Entity>
+      <Entity type="Comment">
+        <Text>Clase abstracta
+</Text>
+        <Location left="461" top="181" />
+        <Size width="75" height="50" />
+      </Entity>
+      <Entity type="Comment">
+        <Text>Metodo virtual
+</Text>
+        <Location left="446" top="372" />
+        <Size width="102" height="50" />
+      </Entity>
+      <Entity type="Comment">
+        <Text>Metodo sobrescrito
+override
+</Text>
+        <Location left="272" top="559" />
+        <Size width="122" height="50" />
+      </Entity>
+    </Entities>
+    <Relationships>
+      <Relationship type="Generalization" first="1" second="0">
+        <StartOrientation>Vertical</StartOrientation>
+        <EndOrientation>Vertical</EndOrientation>
+        <BendPoint relativeToStartShape="False">
+          <X>718</X>
+          <Y>436</Y>
+        </BendPoint>
+      </Relationship>
+      <Relationship type="Generalization" first="2" second="0">
+        <StartOrientation>Vertical</StartOrientation>
+        <EndOrientation>Vertical</EndOrientation>
+        <BendPoint relativeToStartShape="False">
+          <X>694</X>
+          <Y>442</Y>
+        </BendPoint>
+      </Relationship>
+      <Relationship type="Generalization" first="3" second="0">
+        <StartOrientation>Vertical</StartOrientation>
+        <EndOrientation>Vertical</EndOrientation>
+        <BendPoint relativeToStartShape="False">
+          <X>736</X>
+          <Y>442</Y>
+        </BendPoint>
+      </Relationship>
+      <Relationship type="Comment" first="5" second="0">
+        <StartOrientation>Horizontal</StartOrientation>
+        <EndOrientation>Horizontal</EndOrientation>
+        <BendPoint relativeToStartShape="True">
+          <X>576</X>
+          <Y>396</Y>
+        </BendPoint>
+      </Relationship>
+      <Relationship type="Comment" first="6" second="2">
+        <StartOrientation>Horizontal</StartOrientation>
+        <EndOrientation>Horizontal</EndOrientation>
+      </Relationship>
+      <Relationship type="Comment" first="4" second="0">
+        <StartOrientation>Horizontal</StartOrientation>
+        <EndOrientation>Horizontal</EndOrientation>
+      </Relationship>
+    </Relationships>
+  </ProjectItem>
+  <ProjectItem type="NClass.DiagramEditor.ClassDiagram.Diagram" assembly="NClass.DiagramEditor, Version=2.4.1823.0, Culture=neutral, PublicKeyToken=null">
+    <Name>3.3.1</Name>
+    <Language>CSharp</Language>
+    <Entities>
+      <Entity type="Class">
+        <Name>Llanta</Name>
+        <Access>Public</Access>
+        <Location left="1567" top="194" />
+        <Size width="199" height="213" />
+        <Collapsed>False</Collapsed>
+        <Member type="Field">string _strMarca</Member>
+        <Member type="Field">string _strModelo</Member>
+        <Member type="Field">int _intTamanioPulgadas</Member>
+        <Member type="Constructor">public Llanta()</Member>
+        <Member type="Property">public string Marca { get; set; }</Member>
+        <Member type="Property">public string Modelo { get; set; }</Member>
+        <Member type="Property">public int TamanioPulgadas { get; set; }</Member>
+        <Member type="Method">public string ToString()</Member>
+        <Modifier>None</Modifier>
+      </Entity>
+      <Entity type="Class">
+        <Name>Puerta</Name>
+        <Access>Public</Access>
+        <Location left="1258" top="619" />
+        <Size width="162" height="145" />
+        <Collapsed>False</Collapsed>
+        <Member type="Field">string _strTipo</Member>
+        <Member type="Constructor">public Puerta()</Member>
+        <Member type="Property">public string Tipo { get; set; }</Member>
+        <Member type="Method">public string ToString()</Member>
+        <Modifier>None</Modifier>
+      </Entity>
+      <Entity type="Class">
+        <Name>Motor</Name>
+        <Access>Public</Access>
+        <Location left="1567" top="466" />
+        <Size width="191" height="179" />
+        <Collapsed>False</Collapsed>
+        <Member type="Field">string _strNumeroSerie</Member>
+        <Member type="Field">int _intCilindros</Member>
+        <Member type="Constructor">public Motor()</Member>
+        <Member type="Property">public string NumeroSerie { get; set; }</Member>
+        <Member type="Property">public int Cilindros { get; set; }</Member>
+        <Member type="Method">public string ToString()</Member>
+        <Modifier>None</Modifier>
+      </Entity>
+      <Entity type="Class">
+        <Name>Automovil</Name>
+        <Access>Public</Access>
+        <Location left="1258" top="194" />
+        <Size width="247" height="366" />
+        <Collapsed>False</Collapsed>
+        <Member type="Field">string _strMarca</Member>
+        <Member type="Field">int _intAnio</Member>
+        <Member type="Field">string _strModelo</Member>
+        <Member type="Field">Motor unMotor = new Motor()</Member>
+        <Member type="Field">List&lt;Puerta&gt; puertas = new List&lt;Puerta&gt;()</Member>
+        <Member type="Field">Llanta[] llantas = new Llanta[4]</Member>
+        <Member type="Field">int auxLlanta</Member>
+        <Member type="Constructor">public Automovil()</Member>
+        <Member type="Property">public string Marca { get; set; }</Member>
+        <Member type="Property">public int Anio { get; set; }</Member>
+        <Member type="Property">public string Modelo { get; set; }</Member>
+        <Member type="Property">public Motor UnMotor { get; set; }</Member>
+        <Member type="Method">public void InsertarPuerta(Puerta nuevaPuerta)</Member>
+        <Member type="Method">public IEnumerator&lt;Puerta&gt; GetEnumerator()</Member>
+        <Member type="Method">public bool InsertarLlanta(Llanta nuevaLlanta)</Member>
+        <Member type="Property">public IEnumerable&lt;Llanta&gt; Llantas { get; }</Member>
+        <Member type="Method">public string ToString()</Member>
+        <Modifier>None</Modifier>
+      </Entity>
+    </Entities>
+    <Relationships>
+      <Relationship type="Association" first="3" second="0">
+        <Label>
+        </Label>
+        <StartOrientation>Horizontal</StartOrientation>
+        <EndOrientation>Horizontal</EndOrientation>
+        <Direction>Unidirectional</Direction>
+        <AssociationType>Aggregation</AssociationType>
+        <StartMultiplicity>1</StartMultiplicity>
+        <EndMultiplicity>4</EndMultiplicity>
+      </Relationship>
+      <Relationship type="Association" first="3" second="1">
+        <Label>
+        </Label>
+        <StartOrientation>Vertical</StartOrientation>
+        <EndOrientation>Vertical</EndOrientation>
+        <Direction>Unidirectional</Direction>
+        <AssociationType>Aggregation</AssociationType>
+        <StartMultiplicity>1</StartMultiplicity>
+        <EndMultiplicity>2..*</EndMultiplicity>
+      </Relationship>
+      <Relationship type="Association" first="3" second="2">
+        <Label>
+        </Label>
+        <StartOrientation>Vertical</StartOrientation>
+        <EndOrientation>Horizontal</EndOrientation>
+        <BendPoint relativeToStartShape="True">
+          <X>1339</X>
+          <Y>585</Y>
+        </BendPoint>
+        <BendPoint relativeToStartShape="False">
+          <X>1528</X>
+          <Y>578</Y>
+        </BendPoint>
+        <Direction>Unidirectional</Direction>
+        <AssociationType>Aggregation</AssociationType>
+        <StartMultiplicity>1</StartMultiplicity>
+        <EndMultiplicity>1</EndMultiplicity>
+      </Relationship>
+    </Relationships>
+  </ProjectItem>
+  <ProjectItem type="NClass.DiagramEditor.ClassDiagram.Diagram" assembly="NClass.DiagramEditor, Version=2.4.1823.0, Culture=neutral, PublicKeyToken=null">
+    <Name>ExamenPractico</Name>
+    <Language>CSharp</Language>
+    <Entities>
+      <Entity type="Class">
+        <Name>Hospital</Name>
+        <Access>Public</Access>
+        <Location left="62" top="267" />
+        <Size width="282" height="230" />
+        <Collapsed>False</Collapsed>
+        <Member type="Field">string _strNombre</Member>
+        <Member type="Field">string _strCiudad</Member>
+        <Member type="Field">List&lt;Medico&gt; listaMedicos = new List&lt;Medico&gt;()</Member>
+        <Member type="Property">public string Nombre { get; set; }</Member>
+        <Member type="Property">public string Ciudad { get; set; }</Member>
+        <Member type="Method">public Medico DeterminarMedicoMasPacientesAtendidos()</Member>
+        <Member type="Method">public void AgregarMedico(Medico nuevoMedico)</Member>
+        <Member type="Method">public IEnumerator&lt;Medico&gt; GetEnumerator()</Member>
+        <Member type="Destructor">~Hospital()</Member>
+        <Modifier>None</Modifier>
+      </Entity>
+      <Entity type="Class">
+        <Name>Medico</Name>
+        <Access>Public</Access>
+        <Location left="404" top="267" />
+        <Size width="207" height="230" />
+        <Collapsed>False</Collapsed>
+        <Member type="Field">string _strNombre</Member>
+        <Member type="Field">string _strSexo</Member>
+        <Member type="Field">string _strEspecialidad</Member>
+        <Member type="Field">int _intPacientesAtendidos</Member>
+        <Member type="Property">public string Nombre { get; set; }</Member>
+        <Member type="Property">public string Sexo { get; set; }</Member>
+        <Member type="Property">public string Especialidad { get; set; }</Member>
+        <Member type="Property">public int PacientesAtendidos { get; set; }</Member>
+        <Member type="Method">public string ToString()</Member>
+        <Modifier>None</Modifier>
+      </Entity>
+      <Entity type="Comment">
+        <Text>override</Text>
+        <Location left="346" top="510" />
+        <Size width="70" height="50" />
+      </Entity>
+    </Entities>
+    <Relationships>
+      <Relationship type="Association" first="0" second="1">
+        <StartOrientation>Horizontal</StartOrientation>
+        <EndOrientation>Horizontal</EndOrientation>
+        <BendPoint relativeToStartShape="True">
+          <X>369</X>
+          <Y>356</Y>
+        </BendPoint>
+        <Direction>Unidirectional</Direction>
+        <AssociationType>Composition</AssociationType>
+        <StartMultiplicity>1</StartMultiplicity>
+        <EndMultiplicity>*</EndMultiplicity>
+      </Relationship>
+      <Relationship type="Comment" first="2" second="1">
+        <StartOrientation>Vertical</StartOrientation>
+        <EndOrientation>Horizontal</EndOrientation>
+        <BendPoint relativeToStartShape="False">
+          <X>379</X>
+          <Y>481</Y>
+        </BendPoint>
+      </Relationship>
+    </Relationships>
+  </ProjectItem>
+  <ProjectItem type="NClass.DiagramEditor.ClassDiagram.Diagram" assembly="NClass.DiagramEditor, Version=2.4.1823.0, Culture=neutral, PublicKeyToken=null">
+    <Name>4.2.6</Name>
+    <Language>CSharp</Language>
+    <Entities>
+      <Entity type="Class">
+        <Name>Cliente</Name>
+        <Access>Public</Access>
+        <Location left="245" top="30" />
+        <Size width="214" height="281" />
+        <Collapsed>False</Collapsed>
+        <Member type="Field">string _strNombre</Member>
+        <Member type="Field">string _strClave</Member>
+        <Member type="Field">string _strRfc</Member>
+        <Member type="Field">string _strDireccionFiscal</Member>
+        <Member type="Field">string _strCorreoElectronico</Member>
+        <Member type="Field">string _strTelefono</Member>
+        <Member type="Property">public string Nombre { get; set; }</Member>
+        <Member type="Property">public string Clave { get; set; }</Member>
+        <Member type="Property">public string Rfc { get; set; }</Member>
+        <Member type="Property">public string DireccionFiscal { get; set; }</Member>
+        <Member type="Property">public string CorreoElectronico { get; set; }</Member>
+        <Member type="Property">public string Telefono { get; set; }</Member>
+        <Modifier>Abstract</Modifier>
+      </Entity>
+      <Entity type="Class">
+        <Name>ClienteContado</Name>
+        <Access>Public</Access>
+        <Location left="185" top="413" />
+        <Size width="162" height="128" />
+        <Collapsed>False</Collapsed>
+        <Member type="Field">string _strTipoPago</Member>
+        <Member type="Property">public string TipoPago { get; set; }</Member>
+        <Member type="Method">public void Pagar()</Member>
+        <Modifier>None</Modifier>
+      </Entity>
+      <Entity type="Class">
+        <Name>ClienteCredito</Name>
+        <Access>Public</Access>
+        <Location left="473" top="413" />
+        <Size width="211" height="162" />
+        <Collapsed>False</Collapsed>
+        <Member type="Field">double _dblLimiteCredito</Member>
+        <Member type="Field">DateTime _dtmPlazoMaximo</Member>
+        <Member type="Property">public souble LimiteCredito { get; set; }</Member>
+        <Member type="Property">public DateTime PlazoMaximo { get; set; }</Member>
+        <Member type="Method">public void Pagar()</Member>
+        <Modifier>None</Modifier>
+      </Entity>
+      <Entity type="Interface">
+        <Name>IPagable</Name>
+        <Access>Public</Access>
+        <Location left="515" top="192" />
+        <Size width="162" height="78" />
+        <Collapsed>False</Collapsed>
+        <Member type="Method">void Pagar()</Member>
+      </Entity>
+      <Entity type="Comment">
+        <Text>Override</Text>
+        <Location left="36" top="459" />
+        <Size width="92" height="50" />
+      </Entity>
+      <Entity type="Comment">
+        <Text>Override</Text>
+        <Location left="738" top="479" />
+        <Size width="92" height="50" />
+      </Entity>
+    </Entities>
+    <Relationships>
+      <Relationship type="Generalization" first="1" second="0">
+        <StartOrientation>Vertical</StartOrientation>
+        <EndOrientation>Vertical</EndOrientation>
+        <BendPoint relativeToStartShape="False">
+          <X>352</X>
+          <Y>339</Y>
+        </BendPoint>
+      </Relationship>
+      <Relationship type="Generalization" first="2" second="0">
+        <StartOrientation>Vertical</StartOrientation>
+        <EndOrientation>Vertical</EndOrientation>
+      </Relationship>
+      <Relationship type="Realization" first="1" second="3">
+        <StartOrientation>Vertical</StartOrientation>
+        <EndOrientation>Vertical</EndOrientation>
+      </Relationship>
+      <Relationship type="Realization" first="2" second="3">
+        <StartOrientation>Vertical</StartOrientation>
+        <EndOrientation>Vertical</EndOrientation>
+      </Relationship>
+      <Relationship type="Comment" first="4" second="1">
+        <StartOrientation>Vertical</StartOrientation>
+        <EndOrientation>Horizontal</EndOrientation>
+        <BendPoint relativeToStartShape="True">
+          <X>106</X>
+          <Y>434</Y>
+        </BendPoint>
+        <BendPoint relativeToStartShape="False">
+          <X>160</X>
+          <Y>526</Y>
+        </BendPoint>
+      </Relationship>
+      <Relationship type="Comment" first="5" second="2">
+        <StartOrientation>Horizontal</StartOrientation>
+        <EndOrientation>Horizontal</EndOrientation>
+        <BendPoint relativeToStartShape="False">
+          <X>709</X>
+          <Y>558</Y>
+        </BendPoint>
+      </Relationship>
+    </Relationships>
+  </ProjectItem>
+  <ProjectItem type="NClass.DiagramEditor.ClassDiagram.Diagram" assembly="NClass.DiagramEditor, Version=2.4.1823.0, Culture=neutral, PublicKeyToken=null">
+    <Name>ExamenTeorico3</Name>
+    <Language>CSharp</Language>
+    <Entities>
+      <Entity type="Class">
+        <Name>Adorno</Name>
+        <Access>Public</Access>
+        <Location left="635" top="205" />
+        <Size width="214" height="179" />
+        <Collapsed>False</Collapsed>
+        <Member type="Field">string _strNombre</Member>
+        <Member type="Field">double _dblCostoProduccion</Member>
+        <Member type="Property">public string Nombre { get; set; }</Member>
+        <Member type="Property">public double CostoProduccion { get; set; }</Member>
+        <Member type="Method">public abstract double CalcularVolumen()</Member>
+        <Member type="Method">public abstract double CalcularPrecio()</Member>
+        <Modifier>Abstract</Modifier>
+      </Entity>
+      <Entity type="Comment">
+        <Text>Clase y metodos abstractos.</Text>
+        <Location left="513" top="267" />
+        <Size width="90" height="69" />
+      </Entity>
+      <Entity type="Class">
+        <Name>Piramide</Name>
+        <Access>Public</Access>
+        <Location left="635" top="438" />
+        <Size width="210" height="128" />
+        <Collapsed>False</Collapsed>
+        <Member type="Method">public double CalcularVolumen()</Member>
+        <Member type="Method">public double CalcularPrecio()</Member>
+        <Member type="Method">public bool Equals(Piramide otraPiramide)</Member>
+        <Modifier>None</Modifier>
+      </Entity>
+      <Entity type="Comment">
+        <Text>Metodos sobreescritos (override).</Text>
+        <Location left="615" top="599" />
+        <Size width="222" height="50" />
+      </Entity>
+      <Entity type="Interface">
+        <Name>IEquatable&lt;Piramide&gt;</Name>
+        <Access>Public</Access>
+        <Location left="923" top="298" />
+        <Size width="162" height="78" />
+        <Collapsed>False</Collapsed>
+        <Member type="Method">bool Equals()</Member>
+      </Entity>
+    </Entities>
+    <Relationships>
+      <Relationship type="Comment" first="1" second="0">
+        <StartOrientation>Vertical</StartOrientation>
+        <EndOrientation>Horizontal</EndOrientation>
+        <BendPoint relativeToStartShape="False">
+          <X>610</X>
+          <Y>228</Y>
+        </BendPoint>
+      </Relationship>
+      <Relationship type="Comment" first="3" second="2">
+        <StartOrientation>Vertical</StartOrientation>
+        <EndOrientation>Vertical</EndOrientation>
+        <BendPoint relativeToStartShape="True">
+          <X>849</X>
+          <Y>674</Y>
+        </BendPoint>
+      </Relationship>
+      <Relationship type="Dependency" first="2" second="4">
+        <Label>
+        </Label>
+        <StartOrientation>Horizontal</StartOrientation>
+        <EndOrientation>Horizontal</EndOrientation>
+        <BendPoint relativeToStartShape="True">
+          <X>872</X>
+          <Y>551</Y>
+        </BendPoint>
+      </Relationship>
+      <Relationship type="Generalization" first="2" second="0">
+        <StartOrientation>Vertical</StartOrientation>
+        <EndOrientation>Vertical</EndOrientation>
+      </Relationship>
+    </Relationships>
+  </ProjectItem>
+  <ProjectItem type="NClass.DiagramEditor.ClassDiagram.Diagram" assembly="NClass.DiagramEditor, Version=2.4.1823.0, Culture=neutral, PublicKeyToken=null">
+    <Name>ExamenPractico3</Name>
+    <Language>CSharp</Language>
+    <Entities>
+      <Entity type="Class">
+        <Name>Paciente</Name>
+        <Access>Public</Access>
+        <Location left="694" top="113" />
+        <Size width="203" height="196" />
+        <Collapsed>False</Collapsed>
+        <Member type="Field">string _strNombre</Member>
+        <Member type="Field">string _strSexo</Member>
+        <Member type="Field">double _dblCostoConsulta</Member>
+        <Member type="Method">public abstract double CalcularPago()</Member>
+        <Member type="Property">public string Nombre { get; set; }</Member>
+        <Member type="Property">public string Sexo { get; set; }</Member>
+        <Member type="Property">public double CostoConsulta { get; set; }</Member>
+        <Modifier>Abstract</Modifier>
+      </Entity>
+      <Entity type="Class">
+        <Name>PacienteDePediatria</Name>
+        <Access>Public</Access>
+        <Location left="660" top="369" />
+        <Size width="245" height="162" />
+        <Collapsed>False</Collapsed>
+        <Member type="Field">int _intCantidadDiasNacido</Member>
+        <Member type="Property">public int CantidadDiasNacido { get; set; }</Member>
+        <Member type="Method">public double CalcularPago()</Member>
+        <Member type="Method">public int CompareTo(Paciente otroPaciente)</Member>
+        <Member type="Method">public string ToString()</Member>
+        <Modifier>None</Modifier>
+      </Entity>
+      <Entity type="Interface">
+        <Name>IComparable&lt;Paciente&gt;</Name>
+        <Access>Public</Access>
+        <Location left="957" top="298" />
+        <Size width="164" height="78" />
+        <Collapsed>False</Collapsed>
+        <Member type="Method">int CompareTo()</Member>
+      </Entity>
+      <Entity type="Comment">
+        <Text>override</Text>
+        <Location left="990" top="449" />
+        <Size width="67" height="50" />
+      </Entity>
+    </Entities>
+    <Relationships>
+      <Relationship type="Generalization" first="1" second="0">
+        <StartOrientation>Vertical</StartOrientation>
+        <EndOrientation>Vertical</EndOrientation>
+        <BendPoint relativeToStartShape="False">
+          <X>796</X>
+          <Y>343</Y>
+        </BendPoint>
+      </Relationship>
+      <Relationship type="Dependency" first="1" second="2">
+        <StartOrientation>Vertical</StartOrientation>
+        <EndOrientation>Horizontal</EndOrientation>
+      </Relationship>
+      <Relationship type="Comment" first="3" second="1">
+        <StartOrientation>Horizontal</StartOrientation>
+        <EndOrientation>Horizontal</EndOrientation>
+        <BendPoint relativeToStartShape="False">
+          <X>932</X>
+          <Y>515</Y>
+        </BendPoint>
+      </Relationship>
+      <Relationship type="Comment" first="3" second="1">
+        <StartOrientation>Horizontal</StartOrientation>
+        <EndOrientation>Horizontal</EndOrientation>
+        <BendPoint relativeToStartShape="False">
+          <X>930</X>
+          <Y>478</Y>
+        </BendPoint>
+      </Relationship>
+    </Relationships>
+  </ProjectItem>
+  <ProjectItem type="NClass.DiagramEditor.ClassDiagram.Diagram" assembly="NClass.DiagramEditor, Version=2.4.1823.0, Culture=neutral, PublicKeyToken=null">
+    <Name>5.3.3</Name>
+    <Language>CSharp</Language>
+    <Entities>
+      <Entity type="Class">
+        <Name>Termostato</Name>
+        <Access>Public</Access>
+        <Location left="541" top="319" />
+        <Size width="271" height="196" />
+        <Collapsed>False</Collapsed>
+        <Member type="Field">int _intTemperaturaAmbiente</Member>
+        <Member type="Field">bool _blnEncendido</Member>
+        <Member type="Constructor">public Termostato()</Member>
+        <Member type="Property">public int TemperaturaAmbiente { get; set; }</Member>
+        <Member type="Property">public bool Encendido { get; set; }</Member>
+        <Member type="Event">public event PropertyChangedEventHandler PropertyChanged</Member>
+        <Member type="Method">public void NotificarCambio()</Member>
+        <Modifier>None</Modifier>
+      </Entity>
+      <Entity type="Interface">
+        <Name>INotifyPropertyChanged</Name>
+        <Access>Public</Access>
+        <Location left="541" top="199" />
+        <Size width="271" height="78" />
+        <Collapsed>False</Collapsed>
+        <Member type="Event">event PropertyChangedEventHandler PropertyChanged</Member>
+      </Entity>
+      <Entity type="Comment">
+        <Text>Deje notas en el codigo
+sobre el funcionamiento del
+termostato</Text>
+        <Location left="848" top="377" />
+        <Size width="158" height="63" />
+      </Entity>
+      <Entity type="Class">
+        <Name>NewClass</Name>
+        <Access>Public</Access>
+        <Location left="258" top="331" />
+        <Size width="162" height="77" />
+        <Collapsed>False</Collapsed>
+        <Modifier>None</Modifier>
+      </Entity>
+      <Entity type="Delegate">
+        <Name>Correr</Name>
+        <Access>Public</Access>
+        <Location left="276" top="14" />
+        <Size width="162" height="216" />
+        <Collapsed>False</Collapsed>
+        <ReturnType>string</ReturnType>
+        <Param>string strPerro</Param>
+      </Entity>
+    </Entities>
+    <Relationships>
+      <Relationship type="Dependency" first="0" second="1">
+        <Label>
+        </Label>
+        <StartOrientation>Vertical</StartOrientation>
+        <EndOrientation>Horizontal</EndOrientation>
+      </Relationship>
+      <Relationship type="Dependency" first="3" second="4">
+        <StartOrientation>Vertical</StartOrientation>
+        <EndOrientation>Horizontal</EndOrientation>
+      </Relationship>
+    </Relationships>
+  </ProjectItem>
+  <ProjectItem type="NClass.DiagramEditor.ClassDiagram.Diagram" assembly="NClass.DiagramEditor, Version=2.4.1823.0, Culture=neutral, PublicKeyToken=null">
+    <Name>Archivos</Name>
+    <Language>CSharp</Language>
+    <Entities>
+      <Entity type="Class">
+        <Name>VitroPiso</Name>
+        <Access>Public</Access>
+        <Location left="370" top="289" />
+        <Size width="242" height="417" />
+        <Collapsed>False</Collapsed>
+        <Member type="Field">string _strMarca</Member>
+        <Member type="Field">double _dblPrecio</Member>
+        <Member type="Field">string _strColor</Member>
+        <Member type="Field">double _dblLargo</Member>
+        <Member type="Field">double _dblAncho</Member>
+        <Member type="Field">double _dblEspesor</Member>
+        <Member type="Field">bool _blnVentaPorMayoreo</Member>
+        <Member type="Field">char _chrCalidad</Member>
+        <Member type="Field">int _intCantidadPiezasPorPaquete</Member>
+        <Member type="Field">DateTime _dtmFechaRegistro</Member>
+        <Member type="Property">public string Marca { get; set; }</Member>
+        <Member type="Property">public double Precio { get; set; }</Member>
+        <Member type="Property">public string Color { get; set; }</Member>
+        <Member type="Property">public double Largo { get; set; }</Member>
+        <Member type="Property">public double Ancho { get; set; }</Member>
+        <Member type="Property">public double Espesor { get; set; }</Member>
+        <Member type="Property">public bool VentaPorMayoreo { get; set; }</Member>
+        <Member type="Property">public char Calidad { get; set; }</Member>
+        <Member type="Property">public int CantidadPiezasPorPaquete { get; set; }</Member>
+        <Member type="Property">public DateTime FechaRegistro { get; set; }</Member>
+        <Modifier>None</Modifier>
+      </Entity>
+      <Entity type="Comment">
+        <Text>[Serializable]</Text>
+        <Location left="648" top="289" />
+        <Size width="90" height="50" />
+      </Entity>
+    </Entities>
+    <Relationships>
+      <Relationship type="Comment" first="1" second="0">
+        <StartOrientation>Horizontal</StartOrientation>
+        <EndOrientation>Horizontal</EndOrientation>
+        <BendPoint relativeToStartShape="True">
+          <X>623</X>
+          <Y>313</Y>
+        </BendPoint>
+        <BendPoint relativeToStartShape="False">
+          <X>637</X>
+          <Y>313</Y>
+        </BendPoint>
+      </Relationship>
+    </Relationships>
+  </ProjectItem>
+  <ProjectItem type="NClass.DiagramEditor.ClassDiagram.Diagram" assembly="NClass.DiagramEditor, Version=2.4.1823.0, Culture=neutral, PublicKeyToken=null">
+    <Name>Examen teorico 4</Name>
+    <Language>CSharp</Language>
+    <Entities>
+      <Entity type="Class">
+        <Name>Taladro</Name>
+        <Access>Public</Access>
+        <Location left="637" top="353" />
+        <Size width="233" height="332" />
+        <Collapsed>False</Collapsed>
+        <Member type="Field">int _intPotenciaMinima</Member>
+        <Member type="Field">string _strMarca</Member>
+        <Member type="Field">char _chrTipoDeFuncionamiento</Member>
+        <Member type="Field">double _dblTamanioDeMandril</Member>
+        <Member type="Field">DateTime _dtmFechaRegistro</Member>
+        <Member type="Field">bool _blnTieneGarantia</Member>
+        <Member type="Field">string _strModelo</Member>
+        <Member type="Property">public int PotenciaMinima { get; set; }</Member>
+        <Member type="Property">public string Marca { get; set; }</Member>
+        <Member type="Property">public char TipoDeFuncionamiento { get; set; }</Member>
+        <Member type="Property">public double TamanioDeMandril { get; set; }</Member>
+        <Member type="Property">public DateTime FechaRegistro { get; set; }</Member>
+        <Member type="Property">public bool TieneGarantia { get; set; }</Member>
+        <Member type="Property">public string Modelo { get; set; }</Member>
+        <Member type="Method">public override string ToString()</Member>
+        <Modifier>None</Modifier>
+      </Entity>
+      <Entity type="Comment">
+        <Text>[Serializable]</Text>
+        <Location left="901" top="353" />
+        <Size width="93" height="50" />
+      </Entity>
+      <Entity type="Comment">
+        <Text>override</Text>
+        <Location left="901" top="642" />
+        <Size width="63" height="50" />
+      </Entity>
+    </Entities>
+    <Relationships>
+      <Relationship type="Comment" first="1" second="0">
+        <StartOrientation>Horizontal</StartOrientation>
+        <EndOrientation>Horizontal</EndOrientation>
+        <BendPoint relativeToStartShape="True">
+          <X>876</X>
+          <Y>375</Y>
+        </BendPoint>
+        <BendPoint relativeToStartShape="False">
+          <X>896</X>
+          <Y>375</Y>
+        </BendPoint>
+      </Relationship>
+      <Relationship type="Comment" first="2" second="0">
+        <StartOrientation>Horizontal</StartOrientation>
+        <EndOrientation>Horizontal</EndOrientation>
+        <BendPoint relativeToStartShape="True">
+          <X>875</X>
+          <Y>670</Y>
+        </BendPoint>
+        <BendPoint relativeToStartShape="False">
+          <X>895</X>
+          <Y>670</Y>
+        </BendPoint>
+      </Relationship>
+    </Relationships>
+  </ProjectItem>
+  <ProjectItem type="NClass.DiagramEditor.ClassDiagram.Diagram" assembly="NClass.DiagramEditor, Version=2.4.1823.0, Culture=neutral, PublicKeyToken=null">
+    <Name>Examen practico 4</Name>
+    <Language>CSharp</Language>
+    <Entities>
+      <Entity type="Class">
+        <Name>Zoologico</Name>
+        <Access>Public</Access>
+        <Location left="639" top="272" />
+        <Size width="254" height="332" />
+        <Collapsed>False</Collapsed>
+        <Member type="Field">int _intCantidadHabitats</Member>
+        <Member type="Field">string _strNombre</Member>
+        <Member type="Field">char _chrUbicacion</Member>
+        <Member type="Field">double _dblCostoDeEntrada</Member>
+        <Member type="Field">DateTime _dtmFechaInauguracion</Member>
+        <Member type="Field">bool _blnEsIndependiente</Member>
+        <Member type="Field">string _strCiudad</Member>
+        <Member type="Property">public int CantidadHabitats { get; set; }</Member>
+        <Member type="Property">public string Nombre { get; set; }</Member>
+        <Member type="Property">public char Ubicacion { get; set; }</Member>
+        <Member type="Property">public double CostoDeEntrada { get; set; }</Member>
+        <Member type="Property">public DateTime FechaDeInauguracion { get; set; }</Member>
+        <Member type="Property">public bool EsIndependiente { get; set; }</Member>
+        <Member type="Property">public string Ciudad { get; set; }</Member>
+        <Member type="Method">public string ToString()</Member>
+        <Modifier>None</Modifier>
+      </Entity>
+      <Entity type="Comment">
+        <Text>[Serializable]</Text>
+        <Location left="940" top="272" />
+        <Size width="88" height="50" />
+      </Entity>
+      <Entity type="Comment">
+        <Text>Lo mantiene el gobierno o es privado</Text>
+        <Location left="940" top="370" />
+        <Size width="94" height="60" />
+      </Entity>
+      <Entity type="Comment">
+        <Text>override</Text>
+        <Location left="940" top="542" />
+        <Size width="66" height="50" />
+      </Entity>
+    </Entities>
+    <Relationships>
+      <Relationship type="Comment" first="1" second="0">
+        <StartOrientation>Horizontal</StartOrientation>
+        <EndOrientation>Horizontal</EndOrientation>
+        <BendPoint relativeToStartShape="True">
+          <X>908</X>
+          <Y>298</Y>
+        </BendPoint>
+        <BendPoint relativeToStartShape="False">
+          <X>918</X>
+          <Y>298</Y>
+        </BendPoint>
+      </Relationship>
+      <Relationship type="Comment" first="2" second="0">
+        <StartOrientation>Vertical</StartOrientation>
+        <EndOrientation>Horizontal</EndOrientation>
+        <BendPoint relativeToStartShape="False">
+          <X>918</X>
+          <Y>420</Y>
+        </BendPoint>
+      </Relationship>
+      <Relationship type="Comment" first="3" second="0">
+        <StartOrientation>Vertical</StartOrientation>
+        <EndOrientation>Horizontal</EndOrientation>
+        <BendPoint relativeToStartShape="True">
+          <X>976</X>
+          <Y>517</Y>
+        </BendPoint>
+        <BendPoint relativeToStartShape="False">
+          <X>918</X>
+          <Y>587</Y>
+        </BendPoint>
+      </Relationship>
+    </Relationships>
+  </ProjectItem>
+  <ProjectItem type="NClass.DiagramEditor.ClassDiagram.Diagram" assembly="NClass.DiagramEditor, Version=2.4.1823.0, Culture=neutral, PublicKeyToken=null">
+    <Name>ArticulosNavidenios</Name>
+    <Language>CSharp</Language>
+    <Entities>
+      <Entity type="Class">
+        <Name>FabricaArticulosNavidenios</Name>
+        <Access>Public</Access>
+        <Location left="312" top="425" />
+        <Size width="306" height="434" />
+        <Collapsed>False</Collapsed>
+        <Member type="Field">string _strNombre</Member>
+        <Member type="Field">double _dblTamanioTerritorio</Member>
+        <Member type="Field">char _chrClasificacion</Member>
+        <Member type="Field">DateTime _dtmFechaInauguracion</Member>
+        <Member type="Field">bool _blnTieneCredito</Member>
+        <Member type="Field">int _intCantidadEmpleados</Member>
+        <Member type="Field">int _intCantidadProveedores</Member>
+        <Member type="Field">string _strTipoSegunDependencia</Member>
+        <Member type="Field">string _strRutaImagen</Member>
+        <Member type="Property">public string Nombre { get; set; }</Member>
+        <Member type="Property">public double TamanioTerritorio { get; set; }</Member>
+        <Member type="Property">public char Clasificacion { get; set; }</Member>
+        <Member type="Property">public DateTime FechaInauguracion { get; set; }</Member>
+        <Member type="Property">public bool TieneCredito { get; set; }</Member>
+        <Member type="Property">public int CantidadEmpleados { get; set; }</Member>
+        <Member type="Property">public int CantidadProveedores { get; set; }</Member>
+        <Member type="Property">public string TipoSegunDependencia { get; set; }</Member>
+        <Member type="Method">public void ModificarImagen(string strRuta)</Member>
+        <Member type="Method">public string ObtenerImagen()</Member>
+        <Member type="Method">public int CompareTo(FabricaArticulosNavidenios otraFabrica)</Member>
+        <Member type="Method">public bool Equals(FabricaArticulosNavidenios otraFabrica)</Member>
+        <Modifier>None</Modifier>
+      </Entity>
+      <Entity type="Interface">
+        <Name>IComparable&lt;FabricaArticulosNavidenios&gt;</Name>
+        <Access>Public</Access>
+        <Location left="586" top="269" />
+        <Size width="282" height="78" />
+        <Collapsed>False</Collapsed>
+        <Member type="Method">int CompareTo()</Member>
+      </Entity>
+      <Entity type="Interface">
+        <Name>IEquatable&lt;FabricaArticulosNavidenios&gt;</Name>
+        <Access>Public</Access>
+        <Location left="312" top="269" />
+        <Size width="269" height="78" />
+        <Collapsed>False</Collapsed>
+        <Member type="Method">bool Equals()</Member>
+      </Entity>
+      <Entity type="Comment">
+        <Text>Clasificaciones de la empresa:
+S-Grande
+A-Mediana
+B-Pequeña
+C-Micro</Text>
+        <Location left="684" top="425" />
+        <Size width="170" height="87" />
+      </Entity>
+    </Entities>
+    <Relationships>
+      <Relationship type="Dependency" first="0" second="1">
+        <StartOrientation>Vertical</StartOrientation>
+        <EndOrientation>Vertical</EndOrientation>
+        <BendPoint relativeToStartShape="True">
+          <X>473</X>
+          <Y>400</Y>
+        </BendPoint>
+        <BendPoint relativeToStartShape="False">
+          <X>727</X>
+          <Y>372</Y>
+        </BendPoint>
+      </Relationship>
+      <Relationship type="Dependency" first="0" second="2">
+        <StartOrientation>Vertical</StartOrientation>
+        <EndOrientation>Vertical</EndOrientation>
+        <BendPoint relativeToStartShape="True">
+          <X>472</X>
+          <Y>398</Y>
+        </BendPoint>
+      </Relationship>
+      <Relationship type="Comment" first="3" second="0">
+        <StartOrientation>Horizontal</StartOrientation>
+        <EndOrientation>Horizontal</EndOrientation>
+        <BendPoint relativeToStartShape="False">
+          <X>643</X>
+          <Y>520</Y>
+        </BendPoint>
+      </Relationship>
+    </Relationships>
+  </ProjectItem>
+</Project>
