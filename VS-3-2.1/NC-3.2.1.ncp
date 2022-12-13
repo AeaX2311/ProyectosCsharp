@@ -1,0 +1,57 @@
+<Project>
+  <Name>3.2</Name>
+  <ProjectItem type="NClass.DiagramEditor.ClassDiagram.Diagram" assembly="NClass.DiagramEditor, Version=2.4.1823.0, Culture=neutral, PublicKeyToken=null">
+    <Name>1</Name>
+    <Language>CSharp</Language>
+    <Entities>
+      <Entity type="Class">
+        <Name>Departamento</Name>
+        <Access>Public</Access>
+        <Location left="892" top="291" />
+        <Size width="343" height="196" />
+        <Collapsed>False</Collapsed>
+        <Member type="Field">string _strNombre</Member>
+        <Member type="Field">string _strJefe</Member>
+        <Member type="Field">int _intNumero</Member>
+        <Member type="Constructor">public Departamento(int intNumero, string strNombre, string strJefe)</Member>
+        <Member type="Property">public int Numero { get; set; }</Member>
+        <Member type="Property">public string Nombre { get; set; }</Member>
+        <Member type="Property">public string Jefe { get; set; }</Member>
+        <Modifier>None</Modifier>
+      </Entity>
+      <Entity type="Class">
+        <Name>Empresa</Name>
+        <Access>Public</Access>
+        <Location left="490" top="291" />
+        <Size width="351" height="264" />
+        <Collapsed>False</Collapsed>
+        <Member type="Field">string _strRfc</Member>
+        <Member type="Field">string _strRazonSocial</Member>
+        <Member type="Field">string _strNombreGerente</Member>
+        <Member type="Field">List&lt;Departamento&gt; ListaDepartamento</Member>
+        <Member type="Constructor">public Empresa()</Member>
+        <Member type="Property">public string Rfc { get; set; }</Member>
+        <Member type="Property">public string RazonSocial { get; set; }</Member>
+        <Member type="Property">public string NombreGerente { get; set; }</Member>
+        <Member type="Method">public void InsertarDepartamento(Departamento nuevoDepartamento)</Member>
+        <Member type="Method">public IEnumerator&lt;Departamento&gt; GetEnumerator()</Member>
+        <Member type="Destructor">~Empresa()</Member>
+        <Modifier>None</Modifier>
+      </Entity>
+    </Entities>
+    <Relationships>
+      <Relationship type="Association" first="1" second="0">
+        <Label>
+        </Label>
+        <StartOrientation>Horizontal</StartOrientation>
+        <EndOrientation>Horizontal</EndOrientation>
+        <BendPoint relativeToStartShape="True">
+          <X>885</X>
+          <Y>369</Y>
+        </BendPoint>
+        <Direction>Unidirectional</Direction>
+        <AssociationType>Composition</AssociationType>
+      </Relationship>
+    </Relationships>
+  </ProjectItem>
+</Project>

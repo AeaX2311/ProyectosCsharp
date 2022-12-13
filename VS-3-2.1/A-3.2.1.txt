@@ -1,0 +1,25 @@
+ANALISIS 3.2.1
+Investigacion preliminar
+-	Investigacion acerca de los requisitos que tiene una empresa y sus requerimientos.
+Definicion del problema
+-	Realizar una aplicación de formas que le permita al usuario ingresar los datos de su empresa
+-	Leer los datos de la empresa
+-	Solicitar los datos de sus departamentos
+-	Leer cuantos departamentos ingrese el usuario
+-	Independientemente de la cantidad, mostrarle, mediante una caja de grupos, la información de cada departamento en manera de lista
+-	Realizar las validaciones necesarias en torno a los datos capturados
+Datos de entrada
+-	El RFC de la empresa (atributo: _strRfc, propiedad: Rfc):cadena
+-	El nombre de la empresa, razón social(atributo: _strRazonSocial, propiedad: RazonSocial):cadena
+-	El nombre del gerente de la empresa(atributo: _strNombreGerente, propiedad: NombreGerente):cadena
+-	Para cada departamento creado:
+o	Numero del departamento(atributo:_intNumero, propiedad: Numero):entero
+o	Nombre del departamento(atributo: _strNombre, propiedad: Nombre):cadena
+o	Jefe del departamento(atributo:_strJefe, propiedad: Jefe):cadena
+Informacion de salida
+-	Constantemente se le muestra al usuario los datos de su empresa y de cada departamento, confore se vayan añadiendo
+Datos auxiliares
+-	Clase para modelar una empresa, Empresa
+-	Clase para modelar un departamento, Departamento
+-	Objeto a partir de la clase Empresa, miEmpresa: Empresa
+-	Objetos necesarios a partir de la clase Departamento
